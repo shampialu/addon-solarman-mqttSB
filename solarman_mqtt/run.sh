@@ -40,7 +40,7 @@ bashio::log.info "Creating Solarman-MQTT configuration file"
 cat << EOF > config.json
 {
   "name": $SM_NAME,
-  "url": "https://globalapi.solarmanpv.com",
+  "url": "globalapi.solarmanpv.com",
   "appid": "$SM_APP_ID",
   "secret": "$SM_SECRET",
   "username": "$SM_USERNAME",
